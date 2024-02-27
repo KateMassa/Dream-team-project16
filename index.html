@@ -7,22 +7,78 @@
     <title>Digital Dream Team</title>
     
     <script type="module" crossorigin src="/Dream-team-project16/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Dream-team-project16/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/Dream-team-project16/assets/index-b6197536.css">
   </head>
   <body class="light-theme">
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+    <header class="page-header">
+  <div class="header-wrapper">
+    <div class="header-container">
+      <a class="logo-header" href="./index.html">
+        <svg class="logo-icon light-theme" height="28" width="109">
+          <use href="/Dream-team-project16/assets/icons-ae4a2d1f.svg#icon-logo-light"></use>
+        </svg>
+      </a>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <div class="nav-link-wrapper">
+        <div class="nav-link-inner">
+          <a href="./index.html" class="nav-link-home active-link">Home</a>
+          <a href="./shopping-list.html" class="nav-shopping"
+            >Shopping list
+            <svg class="cart-icon" height="20" width="20">
+              <use href="/Dream-team-project16/assets/icons-ae4a2d1f.svg#icon-cart-white"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="navbar">
+        <a href="./home.html" class="nav-link-home">Home</a>
+        <a href="#shopping-list" class="nav-shopping"
+          >Shopping list
+          <svg class="cart-icon" height="20" width="20">
+            <use href="/Dream-team-project16/assets/icons-ae4a2d1f.svg#icon-cart-white"></use>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mob-wrapper">
+        <label for="themeSwitch" class="theme-switch">
+          <input type="checkbox" id="themeSwitch" />
+          <span class="slider round"></span>
+        </label>
+
+        <button type="button" class="burger-menu">
+          <svg class="open-burger" height="28" width="28">
+            <use href="/Dream-team-project16/assets/icons-ae4a2d1f.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <button class="btn-close" type="button">
+          <svg class="icon-close" width="28" height="28">
+            <use href="/Dream-team-project16/assets/icons-ae4a2d1f.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
 </header>
+
+<div class="menu-section">
+  <nav class="nav-menu-mob">
+    <div class="nav-link-wrapper">
+      <div class="nav-link-inner">
+        <a href="./index.html" class="nav-link-home">Home</a>
+        <a href="./shopping-list.html" class="nav-shopping"
+          >Shopping list
+          <svg class="cart-icon" height="20" width="20">
+            <use href="/Dream-team-project16/assets/icons-ae4a2d1f.svg#icon-cart-white"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
 
 
     <main>
