@@ -1,25 +1,49 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/* @import url('./home.css');
+@import url('./mobile-menu.css');
+@import url('./shopping-list.css');
+@import url('./modal-window.css');
+@import url('./support.css'); */
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/static/DMSans-Regular.ttf') format('truetype'),
+    url('../fonts/static/DMSans-SemiBold.ttf') format('truetype'),
+    url('../fonts/static/DMSans-Medium.ttf') format('truetype'),
+    url('../fonts/static/DMSans-Bold.ttf') format('truetype'),
+    url('../fonts/static/DMSans-Italic.ttf') format('truetype');
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+:root[data-theme='light'] {
+  --main-bg-color: #f6f6f6;
+  --header-bg-color: #ffffff;
+  --header-border-color: #111111;
+  --header-text-color: #111111;
+  --main-bg-color-modal: #ffffff;
+  --header-logo-color: #000000;
+  --first-titles-color: #111111;
+  --color-of-categoryAll-text: #4f2ee8;
+  --color-of-category-text: rgba(17, 17, 17, 0.6);
+  --color-amazon: grayscale(100%);
+  --color-hover: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.35));
+  --color-apple: grayscale(100%);
+}
+
+:root[data-theme='dark'] {
+  --main-bg-color: #202024;
+  --header-bg-color: #111111;
+  --header-border-color: #ffffff;
+  --header-text-color: #ffffff;
+  --main-bg-color-modal: #202024;
+  --header-logo-color: #ffffff;
+  --first-titles-color: #ffffff;
+  --second-titles-color: #4f2ee8;
+  --first-text-color: #ffffff;
+  --color-of-categoryAll-text: #eac645;
+  --color-of-category-text: rgba(255, 255, 255, 0.6);
+  --color-amazon: brightness(0) invert(1);
+  --color-hover: drop-shadow(0px 3px 3px rgba(255, 255, 255, 0.35));
+  --color-apple: grayscale(100%);
 }
