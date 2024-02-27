@@ -1,11 +1,12 @@
 @import url('./reset.css');
 @import url('./header.css');
 
-/* @import url('./home.css');
-@import url('./mobile-menu.css');
-@import url('./shopping-list.css');
+@import url('./home.css');
+@import url('./categories-list.css');
+/* @import url('./mobile-menu.css'); */
+/*@import url('./shopping-list.css');*/
 @import url('./modal-window.css');
-@import url('./support.css'); */
+/*@import url('./support.css');*/
 
 @font-face {
   font-family: 'DM Sans';
